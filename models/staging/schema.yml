@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: staging
+    database: orag-big-data
+    schema: A_test
+    tables:
+      - name: yellow_tripdata
